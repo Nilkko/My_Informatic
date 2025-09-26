@@ -1,0 +1,21 @@
+public class Cerchio {
+    private double r;
+
+    public cerchio(double r) { // ho dichiarato la variabile r che sarebbe il raggio 
+        this.r = r;
+    }
+
+            public double area() {
+                double pi = 3.1416; // ho assegnato la variabile pi greco 
+                return pi * r * r; // stampa il risultato tra il pi per il raggio 
+            }
+
+                public void info() {
+                    System.out.println("Raggio: " + r); // stampa il numero del raggio che sarebbe 5
+                    System.out.println("Area: " + area()); // stampa l area 
+                }
+
+                        public static void main(String[] args) { 
+                            new cerchio(5.0).info();// allora il 5.0 è semplicemente il numero che ho il raggio e info.() stampa la variabile risultante void
+                        }
+}
